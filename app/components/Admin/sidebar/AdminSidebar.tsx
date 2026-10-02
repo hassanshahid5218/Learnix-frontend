@@ -1,7 +1,7 @@
 
 "use client";
 
-import { FC, useEffect, useState } from "react";
+import { FC, useEffect, useState, ReactNode } from "react";
 
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 
@@ -38,7 +38,7 @@ import { useTheme } from "next-themes";
 interface ItemProps {
   title: string;
   to: string;
-  icon: JSX.Element;
+  icon: ReactNode;
   selected: string;
   setSelected: (title: string) => void;
 }
