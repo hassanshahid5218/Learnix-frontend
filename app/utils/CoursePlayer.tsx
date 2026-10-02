@@ -20,7 +20,7 @@ const CoursePlayer: FC<Props> = ({
   useEffect(() => {
     axios
       .post(
-        "http://localhost:8000/api/v1/getVdoCipherOTP",
+        "https://learnix-backend-gamma.vercel.app/api/v1/getVdoCipherOTP",
         {
           videoId: videoUrl,
         }
