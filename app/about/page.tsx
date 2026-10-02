@@ -20,7 +20,7 @@ const Page = (props: Props) => {
       <Heading
         title="About Us - ELearning"
         description="ELearning is a learning management system for helping programmesr."
-        keywords="programming, mern"
+        keywords="programming, mern,Elearning"
       />
 
       <Header
