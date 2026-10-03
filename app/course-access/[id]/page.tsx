@@ -10,8 +10,6 @@ type Props = {
     id: string;
   }>;
 };
-
-
 const Page = ({ params }: Props) => {
   const { id } = use(params);
 
