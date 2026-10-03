@@ -61,7 +61,7 @@ export const authApi = apiSlice.injectEndpoints({
                         })
                     )
                 } catch (error: any) {
-                    console.log(error)
+                    console.log("error",error)
                 }
             }
         }),
