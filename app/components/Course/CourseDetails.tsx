@@ -49,7 +49,7 @@ const CourseDetails = ({
 
 const isPurchased = user?.courses?.some(
   (item: any) =>
-    item?._id?.toString() === data?._id?.toString()
+    item?.courseId?.toString() === data?._id?.toString()
 );
 
   const handleOrder = (e: any) => {
