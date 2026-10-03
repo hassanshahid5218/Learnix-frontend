@@ -173,7 +173,7 @@ const Page = (props: Props) => {
               {/* Courses Grid */}
               {courses && courses.length > 0 && (
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-7 2xl:grid-cols-4 2xl:gap-8">
-                  {courses.map((item: any, index: number) => (
+                  {courses?.map((item: any, index: number) => (
                     <CourseCard item={item} key={index} />
                   ))}
                 </div>

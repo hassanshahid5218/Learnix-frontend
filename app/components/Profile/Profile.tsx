@@ -108,7 +108,7 @@ const Profile: FC<Props> = ({ user }) => {
 
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
               {courses &&
-                courses.map((item: any, index: number) => (
+                courses?.map((item: any, index: number) => (
                   <CourseCard
                     item={item}
                     key={index}
